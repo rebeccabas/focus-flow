@@ -1,0 +1,36 @@
+/* LoginPage.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .gradient-container {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(315deg, #9ab5e1,#98d9e1, #f39fdc);
+    background-size: 200% 200%;
+  }
+
+  .bg-opacity-20 {
+    backdrop-filter: blur(10px);
+  }
+
+  .tab-button {
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+  .tab-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .active-tab {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
