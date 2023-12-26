@@ -89,7 +89,7 @@ const LoginPage = () => {
 
     return (
         <div className="min-h-screen flex-col items-center justify-center pt-20 gradient-container">
-            <div className="flex justify-center items-center mt-5 ">
+            <div className="flex justify-center mr-12 items-center mt-5 ">
                 <button
                     className={`tab-button ${activeTab === 'login' ? 'active-tab' : ''}  text-white bg-black hover:bg-purple-700 m-2 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-md text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 ml-20`}
                     onClick={() => handleTabChange('login')}
